@@ -1,0 +1,11 @@
+-----------------------------------------------
+best-vs-same WebAssembly slowdown compared to C
+-----------------------------------------------
+
+1. Compile rq1.c using gcc. 
+
+  Example: gcc rq1.c
+
+2. Execute with two arguments and store the output into a file
+
+  Example:  ./a.out ../../../../raw_data/c_single.csv ../../../../raw_data/wasm-single-chrome.csv > chrome_single_out.csv

@@ -1,0 +1,7 @@
+---------------------------------
+JavaScript slowdown compared to C
+---------------------------------
+
+1. Plot the bar chart.
+
+  Example: python rq1.py best_vs_best/chrome_single_out.csv best_vs_same/chrome_single_out.csv

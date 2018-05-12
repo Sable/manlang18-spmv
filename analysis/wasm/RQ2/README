@@ -1,0 +1,11 @@
+----------------------------------------------------------------
+Performance comparison between single- and double-precision SpMV
+----------------------------------------------------------------
+
+1. Compile rq2.c using gcc
+
+   Example: gcc rq2.c
+
+2. Execute with two arguments
+
+   Example: ./a.out ../../../raw_data/wasm-single-chrome.csv ../../../raw_data/wasm-double-chrome.csv 
