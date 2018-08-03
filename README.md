@@ -2,7 +2,7 @@
 - [Table of Contents](#table-of-contents)
   * [Input Matrices](#input-matrices)
   * [Research Questions](#research-questions)
-    + [RQ1 : Performance comparison between C and both JavaScript and WebAssembly](#rq1-performance-comparison-between-c-and-both-js-and-wasm)
+    + [RQ1 : Performance comparison between C and both JavaScript and WebAssembly](#rq1-performance-comparison-between-c-and-both-javascript-and-webassembly)
     + [RQ2 : Performance comparison and format difference between single- and double-precision for C, 
     JavaScript and WebAssembly](#performance_comparison_format_diff_single_and_double)
   * [Additional results based on size N](#additional-results-based-on-size-n)
@@ -12,15 +12,14 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
 
 ## Research Questions
 
-    RQ1 : Performance comparison between C and both JavaScript and WebAssembly
+   ### RQ1 : Performance comparison between C and both JavaScript and WebAssembly
  
    | Precision | JavaScript | WebAssembly |
    | :---: | :---: | :---: |
    | Single-precision | <img src="./analysis/js/RQ1/rq1_single.png" width = 400/> | <img src="./analysis/wasm/RQ1/rq1_single.png" width = 400/> |
    | Double-precision | <img src="./analysis/js/RQ1/rq1_double.png" width = 400/> | <img src="./analysis/wasm/RQ1/rq1_double.png" width = 400/> |
    
-    RQ2 : Performance comparison and format difference between single- and double-precision for C, 
-    JavaScript and WebAssembly
+   ### RQ2 : Performance comparison and format difference between single- and double-precision for C, JavaScript and WebAssembly
     
    | x%-affinity | Single-Precision | Double-Precision |
    | --- | :---: | :---: |
@@ -29,8 +28,7 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
    | 50% | <img src="./analysis/c/single_50_pie.png" width = 400/> |  <img src="./analysis/c/double_50_pie.png" width = 400/>|
    
   
-    
-    RQ3 : Format difference between C and both JavaScript and WebAssembly
+  ### RQ3 : Format difference between C and both JavaScript and WebAssembly
     
 ## Additional results based on size N
     ARQ1 : Performance comparison between C and both JavaScript and WebAssembly based on N
