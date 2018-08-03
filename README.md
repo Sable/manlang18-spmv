@@ -8,11 +8,11 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
 
     RQ1 : Performance comparison between C and both JavaScript and WebAssembly
     
-    __Figure 1__. Single-precision JavaScript slowdown compared to C
-    ![Figure 1.](./analysis/js/RQ1/rq1_single.png)
+   __Figure 1__. Single-precision JavaScript slowdown compared to C
+   ![Figure 1.](./analysis/js/RQ1/rq1_single.png)
     
-    __Figure 2__. Double-precision JavaScript slowdown compared to C
-    ![Figure 2.](./analysis/js/RQ1/rq1_double.png)
+   __Figure 2__. Double-precision JavaScript slowdown compared to C
+   ![Figure 2.](./analysis/js/RQ1/rq1_double.png)
     
     RQ2 : Performance comparison and format difference between single- and double-precision for C, 
     JavaScript and WebAssembly
