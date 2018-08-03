@@ -25,3 +25,17 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
   
     
     RQ3 : Format difference between C and both JavaScript and WebAssembly
+    
+## Additional results based on size N 
+    ARQ1 : Performance comparison between C and both JavaScript and WebAssembly based on N
+   ### small matrices less than N = 512
+   | Precision | JavaScript | WebAssembly |
+   | :---: | :---: | :---: |
+   | Single-precision | <img src="./analysis/js/extras/size_plots/rq1_js_small_single.png" width = 400/> | <img src="./analysis/wasm/extras/size_plots/rq1_wasm_small_single.png" width = 400/> |
+   | Double-precision | <img src="./analysis/js/extras/size_plots/rq1_js_small_double.png" width = 400/> | <img src="./analysis/wasm/extras/size_plots/rq1_wasm_small_double.png" width = 400/> |
+   
+   ### small matrices less than N > 100000
+   | Precision | JavaScript | WebAssembly |
+   | :---: | :---: | :---: |
+   | Single-precision | <img src="./analysis/js/extras/size_plots/rq1_js_large_single.png" width = 400/> | <img src="./analysis/wasm/extras/size_plots/rq1_wasm_large_single.png" width = 400/> |
+   | Double-precision | <img src="./analysis/js/extras/size_plots/rq1_js_large_double.png" width = 400/> | <img src="./analysis/wasm/extras/size_plots/rq1_wasm_large_double.png" width = 400/> |
