@@ -38,8 +38,8 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
    ### JavaScript vs C
    | Precision | Small | Large |
    | :---: | :---: | :---: |
-   | Single-precision | <img src="./analysis/js/extras/size_plots/rq1_js_small_single.png" width = 400/> | <img src="./analysis/js/extras/size_plots/rq1_js_large_single.png" width = 400/> |
-   | Double-precision | <img src="./analysis/js/extras/size_plots/rq1_js_small_double.png" width = 400/> | <img src="./analysis/js/extras/size_plots/rq1_js_large_double.png" width = 400/> |
+   | Single-precision | <img src="manlang18-spmv/analysis/js/extras/size_plots/rq1_js_small_single.png" width = 400/> | <img src="./analysis/js/extras/size_plots/rq1_js_large_single.png" width = 400/> |
+   | Double-precision | <img src="manlang18-spmv/analysis/js/extras/size_plots/rq1_js_small_double.png" width = 400/> | <img src="./analysis/js/extras/size_plots/rq1_js_large_double.png" width = 400/> |
    
    ### WebAssembly vs C
    | Precision | Small | Large |
