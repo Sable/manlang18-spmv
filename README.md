@@ -33,8 +33,8 @@ Please find the list of selected [input matrices](./input-matrices.txt) from the
     
 ## Additional results based on size N
     ARQ1 : Performance comparison between C and both JavaScript and WebAssembly based on N
-    Small : N less than 512
-    Large : N more than 100,000
+    Small matrices: N less than 512
+    Large matrices: N more than 100,000
    ### JavaScript vs C
    | Precision | Small | Large |
    | :---: | :---: | :---: |
